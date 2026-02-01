@@ -1,0 +1,8 @@
+# libraries 
+pandas
+numpy 
+seaborn 
+matplotlib
+
+# dependencies 
+pdfplumber
