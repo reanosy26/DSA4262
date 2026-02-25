@@ -1,7 +1,7 @@
 # Hybrid Stress Detection in Social Media: A Psycholinguistic Approach
 
 ## 📌 Project Overview
-This project focuses on identifying psychological stress in social media posts using the **Dreaddit** dataset. Moving beyond simple text classification, this study implements a **Hybrid Meta-Data Model** that integrates lexical features (TF-IDF) with structural psycholinguistic markers (LIWC/DAL).
+This project focuses on identifying psychological stress in social media posts using the **Dreaddit** dataset. Moving beyond simple text classification, this study implements a **Hybrid Meta-Data Model** that integrates lexical features (TF-IDF) with structural psycholinguistic markers (LIWC/DAL). 
 
 The final model is optimized for high-sensitivity triage, specifically designed for potential deployment in university student communities like **r/nus**.
 
@@ -22,9 +22,19 @@ The final model is optimized for high-sensitivity triage, specifically designed 
 * `requirements.txt`: List of Python dependencies required to replicate the environment.
 * `data/`: Directory containing `dreaddit-train.csv` and `dreaddit-test.csv`.
 
+---
+
 ## ⚙️ How to Run the Project
 
-### 1. Environment Setup
+### 1. Clone the Repository
+First, clone the repository to your local machine and navigate into the project directory:
+```bash
+git clone git@github.com:reanosy26/DSA4262.git
+cd DSA4262
+cd assignment_2
+```
+
+### 2. Environment Setup
 It is highly recommended to use a virtual environment to avoid library conflicts:
 ```bash
 # Create a virtual environment
@@ -38,3 +48,4 @@ source venv/bin/activate
 
 # Install required libraries
 pip install -r requirements.txt
+```
