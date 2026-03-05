@@ -3,6 +3,10 @@ pandas
 numpy 
 seaborn 
 matplotlib
+scikit-learn
+shap
+scipy
 
 # dependencies 
 pdfplumber
+
